@@ -6,6 +6,7 @@ import cors from "cors";
 import helmet from "helmet";
 import { connectDB, disconnectDB } from "./src/config/db.js";
 import authRouter from "./src/routes/authRoutes.js";
+import buildingRoutes from "./src/routes/buildingRoutes.js";
 import { apiLimiter } from "./src/middlewares/rateLimitMiddleware.js";
 import { errorHandler, notFoundHandler } from "./src/middlewares/errorHandler.js";
 
@@ -33,6 +34,7 @@ app.use(express.json());
 
 // ROTALAR
 app.use("/api/v1/auth", authRouter);
+app.use("/api/v1/buildings", buildingRoutes);
 
 // 404 Handler - Tanımlanmamış route'lar
 app.use(notFoundHandler);

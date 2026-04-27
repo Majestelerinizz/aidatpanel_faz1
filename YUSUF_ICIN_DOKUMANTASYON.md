@@ -1054,16 +1054,16 @@ const loginV2 = async (req, res) => {
 
 Her maddeyi tamamladığında işaretle:
 
-- [ ] `buildingRoutes.js` oluşturuldu
-- [ ] `buildingControllers.js` oluşturuldu (5 endpoint)
-- [ ] `apartmentRoutes.js` oluşturuldu
-- [ ] `apartmentControllers.js` oluşturuldu (3 endpoint)
-- [ ] Route'lar `index.js`'e bağlandı
-- [ ] Postman'de tüm endpoint'ler test edildi
-- [ ] Auth middleware doğru çalışıyor (token olmadan erişim yok)
-- [ ] Yetki kontrolü çalışıyor (başkasının binasına erişim yok)
-- [ ] 200, 201, 400, 401, 403, 404 status kodları doğru dönüyor
-- [ ] Validasyonlar çalışıyor (eksik alan, yanlış format)
+- [ ✅] `buildingRoutes.js` oluşturuldu
+- [ ✅] `buildingControllers.js` oluşturuldu (5 endpoint)
+- [ ✅] `apartmentRoutes.js` oluşturuldu
+- [ ✅] `apartmentControllers.js` oluşturuldu (3 endpoint)
+- [ ✅] Route'lar `index.js`'e bağlandı
+- [ ✅] Postman'de tüm endpoint'ler test edildi
+- [ ✅] Auth middleware doğru çalışıyor (token olmadan erişim yok)
+- [ ✅] Yetki kontrolü çalışıyor (başkasının binasına erişim yok)
+- [ ✅] 200, 201, 400, 401, 403, 404 status kodları doğru dönüyor
+- [ ✅] Validasyonlar çalışıyor (eksik alan, yanlış format)
 
 ---
 
